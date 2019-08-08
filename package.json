@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-plugin-allow-picture-changes",
+  "name": "nodebb-plugin-redis-pub",
   "version": "0.1.0",
-  "description": "Works with the nodebb-plugin-write-api to allow changing of the profile picture via REST.",
+  "description": "Allows certain forum events to be published to the redis message bus.",
   "main": "hooks.js",
   "author": "Greg Rauhoeft <greg.rauhoeft@ipa.fraunhofer.de>",
   "license": "MIT",
