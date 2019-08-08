@@ -1,0 +1,12 @@
+{
+	"id": "nodebb-plugin-redis-pub",
+	"url": "https://github.com/g-rauhoeft/nodebb-plugin-redis-pub",
+	"library": "./hooks.js",
+	"hooks": [
+		{ "hook": "action:topic.post", "method": "actionTopicPost" },
+		{ "hook": "action:topic.reply", "method": "actionTopicReply" },
+		{ "hook": "action:category.create", "method": "actionCategoryCreate"},
+		{ "hook": "action:group.create", "method": "actionGroupCreate"},
+		{ "hook": "action:group.join", "method": "actionGroupJoin"}
+	]
+}
